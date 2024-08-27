@@ -1,4 +1,4 @@
-name: Solar Radiation Measurement
+name: Stock Price Prediction
 
 on:
   push:
