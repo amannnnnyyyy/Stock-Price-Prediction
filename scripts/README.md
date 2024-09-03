@@ -1,11 +1,7 @@
-# Financial and Text Analysis Toolkit
-
-This repository contains a collection of scripts for financial analysis and text processing. The toolkit is designed to assist in retrieving, analyzing, and visualizing stock market data, as well as performing sentiment analysis and topic modeling on textual data.
-
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Setup Instructions](#setup-instructions)
+* [Overview](#overview)
+* [Setup Instructions](#setup-instructions)
 
 <details>
 <summary><h2 id="overview">Overview</h2></summary>
