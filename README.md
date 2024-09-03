@@ -8,32 +8,23 @@
 * [Overview](#overview)
 * [Business Objective](#business-objective)
 * [Dataset Overview](#dataset-overview)
-* [Competency Mapping](#competency-mapping)
-* [Team](#team)
-* [Key Dates](#key-dates)
-* [Project Planning - EDA & Stats](#project-planning-eda-stats)
-* [Deliverables and Tasks to be done](#deliverables-and-tasks-to-be-done)
-    * [Task 1: Git and GitHub](#task-1-git-and-github)
-    * [Task 2: Quantitative analysis using pynance and TaLib](#task-2-quantitative-analysis-using-pynance-and-talib)
-    * [Task 3: Correlation between news and stock movement](#task-3-correlation-between-news-and-stock-movement)
-* [Due Date (Submission)](#due-date-submission)
-* [Feedback](#feedback)
-* [Other Considerations](#other-considerations)
-* [Tutorials Schedule](#tutorials-schedule)
-* [References](#references)
 
-## Overview  This project focuses on the detailed analysis of a large corpus of financial news data to discover correlations between news sentiment and stock market movements. This project involves Data Engineering (DE), Financial Analytics (FA), and Machine Learning Engineering (MLE).
+
+## Overview  
+This project focuses on the detailed analysis of a large corpus of financial news data to discover correlations between news sentiment and stock market movements. This project involves Data Engineering (DE), Financial Analytics (FA), and Machine Learning Engineering (MLE).
 
 This helps to analyze complex data sets, demonstrate adaptability, and employ innovative thinking skills that are crucial for the demanding environment at Nova Financial Insights. This helps in understanding essential financial analytic techniques.
 
-## Business Objective  Nova Financial Solutions aims to enhance its predictive analytics capabilities to significantly boost its financial forecasting accuracy and operational efficiency through advanced data analysis. As a Data Analyst at Nova Financial Solutions, The main task is to conduct a rigorous analysis of the financial news dataset. The focus of the analysis is:
+## Business Objective  
+Nova Financial Solutions aims to enhance its predictive analytics capabilities to significantly boost its financial forecasting accuracy and operational efficiency through advanced data analysis. As a Data Analyst at Nova Financial Solutions, The main task is to conduct a rigorous analysis of the financial news dataset. The focus of the analysis is:
 
 * **Sentiment Analysis:** Perform sentiment analysis on the ‘headline’ text to quantify the tone and sentiment expressed in financial news. This will involve using natural language processing (NLP) techniques to derive sentiment scores, which can be associated with the respective 'Stock Symbol' to understand the emotional context surrounding stock-related news.
 * **Correlation Analysis:** Establish statistical correlations between the sentiment derived from news articles and the corresponding stock price movements. This involves tracking stock price changes around the date the article was published and analyzing the impact of news sentiment on stock performance. This analysis should consider the publication date and potentially the time the article was published if such data can be inferred or is available.
 
 Your recommendations should leverage insights from this sentiment analysis to suggest investment strategies. These strategies should utilize the relationship between news sentiment and stock price fluctuations to predict future movements.
 
-## Dataset Overview  ### Financial News and Stock Price Integration Dataset
+## Dataset Overview  
+### Financial News and Stock Price Integration Dataset
 
 FNSPID (Financial News and Stock Price Integration Dataset), is a comprehensive financial dataset designed to enhance stock market predictions by combining quantitative and qualitative data.
 
