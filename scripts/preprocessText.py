@@ -4,35 +4,30 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from gensim.models import LdaModel
 import re
+from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
+lemmatizer = WordNetLemmatizer()
+
 # Preprocess the text
 def preprocess_text(text):
   
-    # Convert text to lowercase
+    # Lowercase the text
     text = text.lower()
-
-    # Remove punctuation and special characters
-    text = re.sub(r'[^\w\s]', '', text)
-
-    # Tokenize the text into words
-    words = nltk.word_tokenize(text)
-
-    # Remove stop words
-    stop_words = set(stopwords.words('english'))
-    words = [word for word in words if word not in stop_words]
-
-    # Stem or lemmatize words (optional)
-    # stemmer = PorterStemmer()
-    # words = [stemmer.stem(word) for word in words]
-
-    # Join the words back into a string
-    preprocessed_text = ' '.join(words)
-
-    return preprocessed_text
+    
+    # Remove punctuation
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    
+    # Tokenize the text
+    tokens = word_tokenize(text)
+    
+    # Remove stopwords and lemmatize the tokens
+    tokens = [lemmatizer.lemmatize(token) for token in tokens if token not in stopwords.words('english')]
+    
+    return ' '.join(tokens)
 
 
 # Create a TF-IDF matrix
