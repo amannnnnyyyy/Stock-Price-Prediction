@@ -6,13 +6,6 @@ This repository contains a collection of scripts for financial analysis and text
 
 1. [Overview](#overview)
 2. [Setup Instructions](#setup-instructions)
-3. [Modules](#modules)
-   - [Financial Analysis](#financial-analysis)
-   - [Sentiment Analysis](#sentiment-analysis)
-   - [Text Processing](#text-processing)
-4. [Usage Examples](#usage-examples)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 <details>
 <summary><h2 id="overview">Overview</h2></summary>
